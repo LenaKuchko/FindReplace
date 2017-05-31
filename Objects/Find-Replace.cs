@@ -7,6 +7,9 @@ namespace FindReplace.Objects
   {
     public string FindAndReplace(string body, string find, string replace)
     {
+      body = body.ToLower();
+      find = find.ToLower();
+      replace = replace.ToLower();
       if (body.Contains(find))
       {
         body = body.Replace(find, replace);
