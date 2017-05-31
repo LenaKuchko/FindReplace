@@ -1,6 +1,6 @@
 using Nancy;
 using System.Collections.Generic;
-using RockPaperScissors.Objects;
+using FindReplace.Objects;
 
 namespace FindReplace
 {
