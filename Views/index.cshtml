@@ -7,3 +7,10 @@
   <input id="replace" name="replace" type="text">
   <button type="submit">Submit</button>
 </form>
+
+@if(@Model != null)
+{
+  <ul>
+    <li>@Model</li>
+  </ul>
+}
